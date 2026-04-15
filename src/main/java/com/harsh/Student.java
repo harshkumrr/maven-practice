@@ -19,4 +19,8 @@ public class Student {
     public String getSubject(){
         return subject;
     }
+    @Override
+    public String toString(){
+        return name+" | "+subject+" | "+marks;
+    }
 }
